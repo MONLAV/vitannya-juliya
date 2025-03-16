@@ -9,12 +9,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
     height: 100%;
+    background-color: rgb(246, 247, 213);
 }
 
 header,
 footer {
     padding: 20px 24px;
-    background: linear-gradient(226deg, #85cef8 0%, #f365c4 100%);
+    background: linear-gradient(226deg, #54daf1 0%, #230deb 100%);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -31,7 +32,7 @@ h1 {
 h2 {
     font-family: Georgia;
     font-size: 24px;
-    color: rgb(216, 51, 238);
+    color: rgb(31, 52, 240);
     display: flex;
     justify-content: center;
 }
@@ -40,7 +41,7 @@ h3 {
     font-family: Georgia;
     font-size: 20px;
     font-style: italic;
-    color: rgb(216, 51, 238);
+    color: rgb(40, 44, 250);
     display: block;
     text-align: center;
     margin-left: auto;
@@ -61,7 +62,8 @@ h3 {
 .container {
     min-width: 320px;
     max-width: 450px;
-
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 @keyframes heartbeat {
@@ -94,7 +96,7 @@ h3 {
 
 .button-order {
     border: none;
-    background: linear-gradient(226deg, #85cef8 0%, #f365c4 80%);
+    background: linear-gradient(226deg, #2331f1 0%, #3dd8ec 80%);
     color: white;
     border-radius: 500px;
     box-shadow: 4px 4px 4px 0px #00000060;
@@ -121,7 +123,7 @@ h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    background: linear-gradient(226deg, #85cef8 0%, #f365c4 100%);
+    background: linear-gradient(226deg, #3936f7 0%, #3bc3f8 100%);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 72px 24px 24px 24px;
@@ -151,7 +153,7 @@ h3 {
 .foto {
     position: relative;
     width: 100%;
-    border: 3px dashed #ec6ccc;
+    border: 3px dashed #1342db;
     border-radius: 24px;
 
 }
